@@ -1,4 +1,4 @@
-# Rayman-Legends-Macros
+# Rayman Legends - Macros
 > Set of macros I made to game Rayman Legends
 
 ## Macro Features:
