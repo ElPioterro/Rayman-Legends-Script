@@ -1,15 +1,10 @@
-﻿#IfWinActive, ahk_exe Rayman Legends.exe
-$v::
-KeyWait, v
+#IfWinActive, ahk_exe Rayman Legends.exe
+$f::
+KeyWait, f
+
 Send, {Blind}{Left Down}
-Sleep, 20
+Sleep, 50
 Send, {Blind}{Left Up}
-
-Sleep, 50
-
-Send, {Blind}{Space Down}
-Sleep, 50
-Send, {Blind}{Space Up}
 Sleep, 50
 Send, {Blind}{Down Down}
 Sleep, 50
@@ -19,43 +14,39 @@ Send, {Blind}{s Up}
 Sleep, 50
 Send, {Blind}{Down Up}
 
-Sleep, 200
+Sleep, 300
 
-Send, {Blind}{LShift Down}
-Sleep, 150
-Send, {Blind}{Left Down}
-Sleep, 20
+Send, {Blind}{Right Down}
+Sleep, 50
+Send, {Blind}{Right Up}
+
+
+Sleep, 50
+
 Send, {Blind}{s Down}
-Sleep, 20
-Send, {Blind}{LShift Up}
-Sleep, 20
-Send, {Blind}{Left Up}
-Sleep, 20
+Sleep, 50
 Send, {Blind}{s Up}
 
 Sleep, 100
 
-Send, {Blind}{Down Down}
-Sleep, 20
-Send, {Blind}{Down Up}
-Sleep, 300
+Send, {Blind}{Up Down}
+Send, {Blind}{LShift Down}
+Send, {Blind}{Left Down}
+Send, {Blind}{s Down}
 Send, {Blind}{Space Down}
-Sleep, 300
+Sleep, 100
 Send, {Blind}{Space Up}
+Send, {Blind}{Up Up}
+Send, {Blind}{LShift Up}
+Send, {Blind}{s Up}
+Send, {Blind}{Left Up}
 Return
 
-$b::
-KeyWait, b
+$g::
+KeyWait, g
 Send, {Blind}{Right Down}
-Sleep, 20
+Sleep, 50
 Send, {Blind}{Right Up}
-
-Sleep, 50
-
-
-Send, {Blind}{Space Down}
-Sleep, 50
-Send, {Blind}{Space Up}
 Sleep, 50
 Send, {Blind}{Down Down}
 Sleep, 50
@@ -65,27 +56,29 @@ Send, {Blind}{s Up}
 Sleep, 50
 Send, {Blind}{Down Up}
 
-Sleep, 200
+Sleep, 300
 
-Send, {Blind}{LShift Down}
-Sleep, 150
-Send, {Blind}{Right Down}
-Sleep, 20
+Send, {Blind}{Left Down}
+Sleep, 50
+Send, {Blind}{Left Up}
+
+Sleep, 50
+
 Send, {Blind}{s Down}
-Sleep, 20
-Send, {Blind}{LShift Up}
-Sleep, 20
-Send, {Blind}{Right Up}
-Sleep, 20
+Sleep, 50
 Send, {Blind}{s Up}
 
 Sleep, 100
 
-Send, {Blind}{Down Down}
-Sleep, 20
-Send, {Blind}{Down Up}
-Sleep, 300
+Send, {Blind}{Up Down}
+Send, {Blind}{LShift Down}
+Send, {Blind}{Right Down}
+Send, {Blind}{s Down}
 Send, {Blind}{Space Down}
-Sleep, 300
+Sleep, 100
 Send, {Blind}{Space Up}
+Send, {Blind}{Up Up}
+Send, {Blind}{LShift Up}
+Send, {Blind}{s Up}
+Send, {Blind}{Right Up}
 Return
