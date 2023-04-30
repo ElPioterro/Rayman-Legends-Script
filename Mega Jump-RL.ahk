@@ -1,3 +1,5 @@
+; Made by ElPioterro
+; 30 April 2023
 #IfWinActive, ahk_exe Rayman Legends.exe
 $v::
 KeyWait, v
