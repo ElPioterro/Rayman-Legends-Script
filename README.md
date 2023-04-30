@@ -1,5 +1,5 @@
 # Rayman-Legends-Macros
-Set of macros I made to game Rayman Legends
+> Set of macros I made to game Rayman Legends
 
 ## Macro Features:
  - Break Boost: Gives you a lot of boost from standing position
