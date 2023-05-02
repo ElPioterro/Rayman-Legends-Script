@@ -1,12 +1,17 @@
 ; Made by ElPioterro
 ; 30 April 2023
 #IfWinActive, ahk_exe Rayman Legends.exe
-$f::
-KeyWait, f
-
+$v::
+KeyWait, v
 Send, {Blind}{Left Down}
-Sleep, 50
+Sleep, 20
 Send, {Blind}{Left Up}
+
+Sleep, 50
+
+Send, {Blind}{Space Down}
+Sleep, 50
+Send, {Blind}{Space Up}
 Sleep, 50
 Send, {Blind}{Down Down}
 Sleep, 50
@@ -16,39 +21,43 @@ Send, {Blind}{s Up}
 Sleep, 50
 Send, {Blind}{Down Up}
 
-Sleep, 300
+Sleep, 200
 
-Send, {Blind}{Right Down}
-Sleep, 50
-Send, {Blind}{Right Up}
-
-
-Sleep, 50
-
-Send, {Blind}{s Down}
-Sleep, 50
-Send, {Blind}{s Up}
-
-Sleep, 100
-
-Send, {Blind}{Up Down}
 Send, {Blind}{LShift Down}
+Sleep, 150
 Send, {Blind}{Left Down}
+Sleep, 20
 Send, {Blind}{s Down}
-Send, {Blind}{Space Down}
-Sleep, 100
-Send, {Blind}{Space Up}
-Send, {Blind}{Up Up}
+Sleep, 20
 Send, {Blind}{LShift Up}
-Send, {Blind}{s Up}
+Sleep, 20
 Send, {Blind}{Left Up}
+Sleep, 20
+Send, {Blind}{s Up}
+
+Sleep, 100
+
+Send, {Blind}{Down Down}
+Sleep, 20
+Send, {Blind}{Down Up}
+Sleep, 300
+Send, {Blind}{Space Down}
+Sleep, 300
+Send, {Blind}{Space Up}
 Return
 
-$g::
-KeyWait, g
+$b::
+KeyWait, b
 Send, {Blind}{Right Down}
-Sleep, 50
+Sleep, 20
 Send, {Blind}{Right Up}
+
+Sleep, 50
+
+
+Send, {Blind}{Space Down}
+Sleep, 50
+Send, {Blind}{Space Up}
 Sleep, 50
 Send, {Blind}{Down Down}
 Sleep, 50
@@ -58,29 +67,27 @@ Send, {Blind}{s Up}
 Sleep, 50
 Send, {Blind}{Down Up}
 
-Sleep, 300
+Sleep, 200
 
-Send, {Blind}{Left Down}
-Sleep, 50
-Send, {Blind}{Left Up}
-
-Sleep, 50
-
-Send, {Blind}{s Down}
-Sleep, 50
-Send, {Blind}{s Up}
-
-Sleep, 100
-
-Send, {Blind}{Up Down}
 Send, {Blind}{LShift Down}
+Sleep, 150
 Send, {Blind}{Right Down}
+Sleep, 20
 Send, {Blind}{s Down}
-Send, {Blind}{Space Down}
-Sleep, 100
-Send, {Blind}{Space Up}
-Send, {Blind}{Up Up}
+Sleep, 20
 Send, {Blind}{LShift Up}
-Send, {Blind}{s Up}
+Sleep, 20
 Send, {Blind}{Right Up}
+Sleep, 20
+Send, {Blind}{s Up}
+
+Sleep, 100
+
+Send, {Blind}{Down Down}
+Sleep, 20
+Send, {Blind}{Down Up}
+Sleep, 300
+Send, {Blind}{Space Down}
+Sleep, 300
+Send, {Blind}{Space Up}
 Return
